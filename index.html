@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/mui.min.css" rel="stylesheet" type="text/css" />
     <script src="/src/mui.min.js"></script>
-	 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
   </head>
 <body bgcolor="#c0c0c0">
@@ -30,25 +30,34 @@
         <div class="mui-panel panel">
           <img src="https://avatars3.githubusercontent.com/u/24976002?v=4&s=460" alt="" class="img-header" />
           <br>
-            <h1>Artem. Kharkov, Ukraine </h1>
-            <br>
-	    <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='https://twitter.com/h3xb0y';">twitter <i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button>
+            
+<div class="glitch-wrapper">
+  <div class="glitch" data-text="Artem. Kharkov, Ukraine">Artem. Kharkov, Ukraine</div>
+</div>
+            <div id="glitch">
+            <div class="text"></div><span id="cursor"></span>
+            </div>
+      <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='https://twitter.com/h3xb0y';">twitter <i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button>
             <br>
             <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='https://telegram.me/somersaultbreaking';">Telegram <i class="fa fa-telegram fa-lg" aria-hidden="true"></i>  </button>
             <br>
             <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='http://github.com/h3xb0y';">Github <i class="fa fa-github fa-lg" aria-hidden="true"></i></button>
             <br>
-            <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='http://steamcommunity.com/id/shoegaze_boy';">steam <i class="fa fa-steam fa-lg" aria-hidden="true"></i></button>
+            <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='http://steamcommunity.com/id/shoegaze_boy';">steam<i class="fa fa-steam fa-lg" aria-hidden="true"></i></button>
             <br>
             <button class="mui-btn mui-btn--raised btn-front" onclick="location.href='http://last.fm/user/armitagech';">lastfm <i class="fa fa-lastfm fa-lg" aria-hidden="true"></i></button>
-            <br>  
+            <br> 
         </div>
       </div>
     </div> 
-<!-- panel -->
 
 
-<script type="text/javascript" color="0,0,0" opacity='0.8' zIndex="-2" count="200" src="src/canvas-nest.js"></script>
+
+<script type="text/javascript" src="src/canvas-nest.js"></script>
+<script type="text/javascript" src="src/glitch.js"></script>
+<script type="text/javascript" src="src/buttons.js"></script>
+
+
 
 </body>
 </html>
