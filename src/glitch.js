@@ -62,8 +62,7 @@ class TextScramble {
 
 const phrases = [
   'hi!',
-  'im h3xb0y :)',
-  'subscribe to me '
+  'im h3xb0y :)'
 ]
 
 const el = document.querySelector('.text')
